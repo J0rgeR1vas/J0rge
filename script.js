@@ -9,7 +9,7 @@
 </head>
 <body>
     <input id="myButton" type="submit" onclick="greet">
-    <input type="text" id="thereName">
+    <input type="text" id="thereName" placeholder="enter your name">
    <script>
     let myName = "jorge";
     let myAn = "hello i am" + myName + "what's your name";
