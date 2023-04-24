@@ -11,9 +11,9 @@
     <input type="text" id="thereName" placeholder="enter your name">
    <script>
     let myName = "jorge";
-    let myAn = "hello i am" + myName + "what's your name";
+    let prompt = "hello i am" + myName + "what's your name";
      function greet() {
-        return  myAn 
+        return  prompt 
      }
      document.getElementById("myButton").addEventListener("click", function(){
      alert(greet());
